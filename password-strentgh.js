@@ -66,16 +66,16 @@ const scoreToLabel = (score) =>{
     switch (score) {
         case 0:
         case 1:
-            return "0 - Weak"
+            return "Weak"
         case 2:    
-            return "1 - Okay"
+            return "Okay"
         case 3:
         case 4:
-            return "2 - Good"
+            return "Good"
         case 5:
-            return "3 - Strong"
+            return "Strong"
         default:
-            return "4 - Great"
+            return "Great"
             
     }
 }
